@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/restauranttemplate2'),
+      dir: require('path').join(__dirname, './coverage/hamgus-frontend'),
       subdir: '.',
       reporters: [
         { type: 'html' },
