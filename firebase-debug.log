@@ -1,0 +1,21 @@
+[debug] [2022-11-10T03:46:33.151Z] ----------------------------------------------------------------------
+[debug] [2022-11-10T03:46:33.153Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-10T03:46:33.153Z] CLI Version:   11.16.0
+[debug] [2022-11-10T03:46:33.154Z] Platform:      win32
+[debug] [2022-11-10T03:46:33.154Z] Node Version:  v18.12.1
+[debug] [2022-11-10T03:46:33.154Z] Time:          Thu Nov 10 2022 00:46:33 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2022-11-10T03:46:33.155Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-10T03:46:33.161Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-10T03:46:33.161Z] > authorizing via signed-in user (carlos.maciel.developer@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\carlos.maciel\Documents\carlos-maciel\projects-person\hamgus-frontend
+
