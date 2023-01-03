@@ -4,8 +4,7 @@
 
 export const environment = {
   production: false,
-  hmr: false,
-  // firebase :{
+    // firebase :{
   //   apiKey: "AIzaSyBHIj4UqfDGpigKldNiLqu8ubWuiB2OWWY",
   //   authDomain: "hamgus-firebase.firebaseapp.com",
   //   projectId: "hamgus-firebase",
