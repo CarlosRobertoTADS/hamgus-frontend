@@ -5,14 +5,23 @@
 export const environment = {
   production: false,
   hmr: false,
-  firebaseConfig :{
-    apiKey: "AIzaSyBHIj4UqfDGpigKldNiLqu8ubWuiB2OWWY",
-    authDomain: "hamgus-firebase.firebaseapp.com",
-    projectId: "hamgus-firebase",
-    storageBucket: "hamgus-firebase.appspot.com",
-    messagingSenderId: "413849082390",
-    appId: "1:413849082390:web:51f18e537b133344a7b337",
-    measurementId: "G-JTGBWK667T"
+  // firebase :{
+  //   apiKey: "AIzaSyBHIj4UqfDGpigKldNiLqu8ubWuiB2OWWY",
+  //   authDomain: "hamgus-firebase.firebaseapp.com",
+  //   projectId: "hamgus-firebase",
+  //   storageBucket: "hamgus-firebase.appspot.com",
+  //   messagingSenderId: "413849082390",
+  //   appId: "1:413849082390:web:51f18e537b133344a7b337",
+  //   measurementId: "G-JTGBWK667T"
+  // }
+  firebase: {
+    projectId: 'admin-hamgus',
+    appId: '1:731208809676:web:1264322d69fe3255c71669',
+    storageBucket: 'admin-hamgus.appspot.com',
+    apiKey: 'AIzaSyBGz2haTx33OCGN9lQOKJezvpXrSaLcf1E',
+    authDomain: 'hamgus-firebase.firebaseapp.com',
+    messagingSenderId: '731208809676',
+    measurementId: 'G-NGT3FZB9R6',
   }
 };
 
