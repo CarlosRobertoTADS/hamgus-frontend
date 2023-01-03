@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DetailEstablishmentComponent } from './containers/detail-establishment/detail-establishment.component';
 import { ListEstablishmentsComponent } from './containers/list-establishments/list-establishments.component';
+import {LOCALE_ID, DEFAULT_CURRENCY_CODE} from '@angular/core';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,16 @@ import { ListEstablishmentsComponent } from './containers/list-establishments/li
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideFirestore(() => getFirestore())
   ],
-  providers: [],
+  providers: [
+    {
+      provide: LOCALE_ID,
+      useValue: "pt"
+    },
+    {
+      provide:  DEFAULT_CURRENCY_CODE,
+      useValue: 'BRL'
+  },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -225,8 +225,8 @@
                 </div>
                 <div class="row gy-5">
                  <div class="col-lg-4 menu-item" *ngFor="let item of establishmentListCafeteria">
-                    <a class="glightbox"><img src="{{item.urlImage}}" alt=""></a>
-                    <h4>{{item.name}}</h4>
+                    <a [routerLink]="['/detail-establishment', item.id]"  class="glightbox"><img src="{{item.urlImage}}" alt=""></a>
+                      <h4>{{item.name}}</h4>
                     <!-- <p class="ingredients"> Lorem, deren, trataro, filede, nerada</p>
                     <p class="price"> $5.95</p> -->
                  </div>
@@ -269,7 +269,7 @@
                 </div>
                 <div class="row gy-5">
                  <div class="col-lg-4 menu-item" *ngFor="let item of establishmentListJapanese">
-                    <a class="glightbox"><img src="{{item.urlImage}}" alt=""></a>
+                    <a [routerLink]="['/detail-establishment', item.id]"  class="glightbox"><img src="{{item.urlImage}}" alt=""></a>
                     <h4>{{item.name}}</h4>
                     <!-- <p class="ingredients"> Lorem, deren, trataro, filede, nerada</p>
                     <p class="price"> $5.95</p> -->
@@ -313,8 +313,8 @@
                 </div>
                 <div class="row gy-5">
                  <div class="col-lg-4 menu-item" *ngFor="let item of establishmentListBakery">
-                    <a  class="glightbox"><img src="{{item.urlImage}}" alt=""></a>
-                    <h4>{{item.name}}</h4>
+                    <a [routerLink]="['/detail-establishment', item.id]"  class="glightbox"><img src="{{item.urlImage}}" alt=""></a>
+                      <h4>{{item.name}}</h4>
                     <!-- <p class="ingredients"> Lorem, deren, trataro, filede, nerada</p>
                     <p class="price"> $5.95</p> -->
                  </div>
