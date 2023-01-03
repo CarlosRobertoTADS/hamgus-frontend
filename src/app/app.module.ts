@@ -32,10 +32,6 @@ import {LOCALE_ID, DEFAULT_CURRENCY_CODE} from '@angular/core';
   ],
   providers: [
     {
-      provide: LOCALE_ID,
-      useValue: "pt"
-    },
-    {
       provide:  DEFAULT_CURRENCY_CODE,
       useValue: 'BRL'
   },
