@@ -24,10 +24,10 @@ export class ListEstablishmentsComponent implements OnInit {
     this.loading = true;
     this.firebaseEstablishmentService.getAllEstablishments().subscribe(resp => {
       console.log(resp);
-      this.establishmentListRestaurant = resp.filter(f => f.idTypeRestaurant === 3);
-      this.establishmentListCafeteria = resp.filter(f => f.idTypeRestaurant === 1);
-      this.establishmentListBakery = resp.filter(f => f.idTypeRestaurant === 4);
-      this.establishmentListJapanese = resp.filter(f => f.idTypeRestaurant === 2);
+      this.establishmentListRestaurant = resp.filter(f => f.idTypeRestaurant === 3 && f.statusActive === true);
+      this.establishmentListCafeteria = resp.filter(f => f.idTypeRestaurant === 1 && f.statusActive === true);
+      this.establishmentListBakery = resp.filter(f => f.idTypeRestaurant === 4 && f.statusActive === true);
+      this.establishmentListJapanese = resp.filter(f => f.idTypeRestaurant === 2 && f.statusActive === true);
       this.loading = false;
     });
   }
